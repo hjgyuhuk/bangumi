@@ -1,0 +1,12 @@
+[source]
+url = "https://example.com/api/bangumi.json"
+update_interval = "30m"
+request_timeout = "15s"
+
+[server]
+addr = ":8080"
+path = "/api/on-air"
+
+[output]
+file = "data/on-air.json"
+pretty = true

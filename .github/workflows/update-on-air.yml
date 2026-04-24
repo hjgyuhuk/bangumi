@@ -1,0 +1,49 @@
+name: Update on-air data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs daily at 04:10 Asia/Shanghai.
+    - cron: "10 20 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-on-air-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Run tests
+        run: go test ./...
+
+      - name: Fetch latest on-air data
+        env:
+          BANGUMI_SOURCE_URL: ${{ vars.BANGUMI_SOURCE_URL }}
+        run: go run . -config config.toml -once
+
+      - name: Commit updated data
+        run: |
+          if git diff --quiet -- data/on-air.json; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/on-air.json
+          git commit -m "Update on-air data"
+          git push
