@@ -1,0 +1,12 @@
+[source]
+url = "https://unpkg.com/bangumi-data@0.3.207/dist/data.json"
+update_interval = "30m"
+request_timeout = "15s"
+
+[server]
+addr = ":8080"
+path = "/api/on-air"
+
+[output]
+file = "data/on-air.json"
+pretty = true
