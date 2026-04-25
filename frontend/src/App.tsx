@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import {
   Badge,
-  Breadcrumbs,
   Button,
   CommandPalette,
   Empty,
@@ -343,16 +342,19 @@ export default function App() {
   const currentDayLabel = currentDay === todayDayIndex ? "今天" : DAY_NAMES[currentDay];
 
   return (
-    <div style={{ maxWidth: 1280, margin: "0 auto", padding: "16px 16px" }} className="sm:!p-6">
-      <Breadcrumbs size="sm">
-        <Breadcrumbs.Link href="/">Bangumi</Breadcrumbs.Link>
-        <Breadcrumbs.Separator />
-        <Breadcrumbs.Current>
-          每周放送
-        </Breadcrumbs.Current>
-      </Breadcrumbs>
-
-      <div style={{ marginTop: 16, marginBottom: 24 }} className="sm:!mt-5 sm:!mb-8">
+    <div
+      style={{
+        maxWidth: 1280,
+        height: "100dvh",
+        margin: "0 auto",
+        padding: "16px 16px",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+      }}
+      className="sm:!p-6"
+    >
+      <div style={{ marginBottom: 20 }} className="sm:!mb-6">
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <Television size={28} weight="duotone" />
           <Text variant="heading1" className="!text-2xl sm:!text-[30px]">每周番剧放送表</Text>
@@ -416,10 +418,21 @@ export default function App() {
         </div>
       </div>
 
-      <div style={{ display: "flex", gap: 16, marginBottom: 20, flexWrap: "wrap" }}>
-        <div style={{ flex: "1 1 200px" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 12,
+          marginBottom: 20,
+          flexWrap: "wrap",
+        }}
+      >
+        <Text variant="secondary" size="sm" as="span">
+          选择季度
+        </Text>
+        <div style={{ flex: "1 1 220px", minWidth: 180 }}>
           <Select
-            label="选择季度"
+            aria-label="选择季度"
             value={getSeasonKey(selectedSeason)}
             renderValue={(v) => {
               const [yearStr, seasonStr] = (v as string).split("-");
@@ -447,7 +460,7 @@ export default function App() {
             ))}
           </Select>
         </div>
-        <div style={{ display: "flex", alignItems: "flex-end", paddingBottom: 1 }}>
+        <div style={{ display: "flex", alignItems: "center" }}>
           <Switch
             label="只看关注"
             checked={followOnly}
@@ -456,7 +469,17 @@ export default function App() {
         </div>
       </div>
 
-      <Surface style={{ padding: "16px" }} className="sm:!p-6">
+      <Surface
+        style={{
+          padding: "16px",
+          minHeight: 0,
+          flex: 1,
+          display: "flex",
+          flexDirection: "column",
+          overflow: "hidden",
+        }}
+        className="sm:!p-6"
+      >
         <div
           style={{
             display: "flex",
@@ -493,7 +516,7 @@ export default function App() {
             icon={<Television size={48} weight="duotone" />}
           />
         ) : (
-          <>
+          <div style={{ minHeight: 0, flex: 1, display: "flex", flexDirection: "column" }}>
             <div className="tabs-scroll">
               <Tabs
                 tabs={tabs}
@@ -502,7 +525,7 @@ export default function App() {
                 variant="underline"
               />
             </div>
-            <div style={{ marginTop: 16 }}>
+            <div style={{ marginTop: 16, minHeight: 0, flex: 1, display: "flex" }}>
               {currentItems.length === 0 ? (
                 <Empty
                   title={`${currentDayLabel}暂无放送`}
@@ -652,7 +675,7 @@ export default function App() {
                 </div>
               )}
             </div>
-          </>
+          </div>
         )}
       </Surface>
 

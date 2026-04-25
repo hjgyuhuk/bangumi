@@ -2,6 +2,13 @@
 @import "@cloudflare/kumo/styles/tailwind";
 @import "tailwindcss";
 
+html,
+body,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background: var(--kumo-color-background, #fafafa);
 }
@@ -15,7 +22,9 @@ body {
 }
 
 .table-scroll {
-  overflow-x: auto;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
   margin: 0 -16px;
   padding: 0 16px;
 }
