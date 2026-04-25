@@ -46,6 +46,8 @@ const TYPE_BADGE_MAP: Record<string, string> = {
   web: "info",
 };
 
+const FOLLOW_ONLY_STORAGE_KEY = "bangumi-follow-only";
+
 function getItemId(item: { title: string; sites?: { key: string; id: string }[] }): string {
   const bangumiSite = item.sites?.find((s) => s.key === "bangumi");
   return bangumiSite?.id ?? item.title;
@@ -89,16 +91,44 @@ function sortSearchGroupsBySeasonDesc(a: SearchGroup, b: SearchGroup): number {
   return b.sortKey - a.sortKey;
 }
 
+function getBrowserTodayDayIndex(): number {
+  const day = new Date().getDay();
+  return day === 0 ? 6 : day - 1;
+}
+
+function isSameSeason(a: SeasonInfo, b: SeasonInfo): boolean {
+  return a.year === b.year && a.season === b.season;
+}
+
+function loadFollowOnly(): boolean {
+  try {
+    return localStorage.getItem(FOLLOW_ONLY_STORAGE_KEY) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function saveFollowOnly(value: boolean): void {
+  try {
+    localStorage.setItem(FOLLOW_ONLY_STORAGE_KEY, String(value));
+  } catch {
+    // Ignore storage errors so the switch still works in restricted browsers.
+  }
+}
+
 export default function App() {
   const [data, setData] = useState<OnAirData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedSeason, setSelectedSeason] = useState<SeasonInfo | null>(null);
-  const [followOnly, setFollowOnly] = useState(false);
+  const [followOnly, setFollowOnly] = useState(loadFollowOnly);
   const [followTick, setFollowTick] = useState(0);
   const [searchOpen, setSearchOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [focusedSearchItem, setFocusedSearchItem] = useState<SearchItem | null>(null);
+  const [activeTab, setActiveTab] = useState(() => String(getBrowserTodayDayIndex()));
+  const todayDayIndex = useMemo(() => getBrowserTodayDayIndex(), []);
+  const currentSeason = useMemo(() => getCurrentSeason(), []);
 
   const handleToggleFollow = useCallback(() => {
     setFollowTick((t) => t + 1);
@@ -120,6 +150,10 @@ export default function App() {
       });
   }, []);
 
+  useEffect(() => {
+    saveFollowOnly(followOnly);
+  }, [followOnly]);
+
   const allSeasons = useMemo(() => {
     if (!data) return [];
     return collectSeasons(data.items);
@@ -127,45 +161,51 @@ export default function App() {
 
   useEffect(() => {
     if (!selectedSeason && allSeasons.length > 0) {
-      const current = getCurrentSeason();
-      const found = allSeasons.find(
-        (s) => s.year === current.year && s.season === current.season
-      );
+      const found = allSeasons.find((s) => isSameSeason(s, currentSeason));
       setSelectedSeason(found ?? allSeasons[allSeasons.length - 1]);
     }
-  }, [allSeasons, selectedSeason]);
+  }, [allSeasons, currentSeason, selectedSeason]);
+
+  const seasonItems = useMemo(() => {
+    if (!data || !selectedSeason) return [];
+    return filterBySeason(data.items, selectedSeason);
+  }, [data, selectedSeason]);
 
   const filtered = useMemo(() => {
-    if (!data || !selectedSeason) return [];
-    let items = filterBySeason(data.items, selectedSeason);
-    if (followOnly) {
-      items = items.filter((item) => isFollowed(getItemId(item)));
-    }
-    return items;
-  }, [data, selectedSeason, followOnly, followTick]);
+    if (!followOnly) return seasonItems;
+    return seasonItems.filter((item) => isFollowed(getItemId(item)));
+  }, [seasonItems, followOnly, followTick]);
 
   const visibleItems = useMemo(() => {
     if (!focusedSearchItem) return filtered;
-    return filtered.filter((item) => getItemId(item) === focusedSearchItem.id);
-  }, [filtered, focusedSearchItem]);
+    return seasonItems.filter((item) => getItemId(item) === focusedSearchItem.id);
+  }, [seasonItems, filtered, focusedSearchItem]);
 
   const grouped = useMemo(() => groupAnimeByDay(visibleItems), [visibleItems]);
 
   const activeDays = useMemo(() => {
-    const days: number[] = [];
+    const days = new Set<number>();
     for (let i = 0; i < 7; i++) {
-      if ((grouped.get(i) ?? []).length > 0) days.push(i);
+      if ((grouped.get(i) ?? []).length > 0) days.add(i);
     }
-    return days;
-  }, [grouped]);
-
-  const [activeTab, setActiveTab] = useState("0");
+    if (
+      selectedSeason &&
+      !focusedSearchItem &&
+      isSameSeason(selectedSeason, currentSeason)
+    ) {
+      days.add(todayDayIndex);
+    }
+    return Array.from(days).sort((a, b) => a - b);
+  }, [grouped, selectedSeason, focusedSearchItem, currentSeason, todayDayIndex]);
 
   useEffect(() => {
     if (activeDays.length > 0 && !activeDays.includes(Number(activeTab))) {
-      setActiveTab(String(activeDays[0]));
+      const fallbackDay = activeDays.includes(todayDayIndex)
+        ? todayDayIndex
+        : activeDays[0];
+      setActiveTab(String(fallbackDay));
     }
-  }, [activeDays, activeTab]);
+  }, [activeDays, activeTab, todayDayIndex]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -183,7 +223,7 @@ export default function App() {
     return data.items.map((item): SearchItem => {
       const season = item.beginDate
         ? getSeasonFromBeginDate(item.beginDate)
-        : getCurrentSeason();
+        : currentSeason;
       const dayIndex = item.broadcast ? parseBroadcastDay(item.broadcast) ?? 0 : 0;
       const time = item.broadcast ? formatLocalTime(item.broadcast) : "";
       return {
@@ -197,7 +237,7 @@ export default function App() {
         sortKey: getSearchBroadcastSortKey(dayIndex, time),
       };
     });
-  }, [data]);
+  }, [data, currentSeason]);
 
   const searchGroups = useMemo(() => {
     const map = new Map<string, SearchGroup>();
@@ -237,7 +277,6 @@ export default function App() {
     (item: SearchItem) => {
       setSelectedSeason(item.season);
       setActiveTab(String(item.dayIndex));
-      setFollowOnly(false);
       setFocusedSearchItem(item);
       setSearchOpen(false);
       setSearch("");
@@ -247,6 +286,11 @@ export default function App() {
 
   const handleClearFocusedSearchItem = useCallback(() => {
     setFocusedSearchItem(null);
+  }, []);
+
+  const handleFollowOnlyChange = useCallback(() => {
+    setFocusedSearchItem(null);
+    setFollowOnly((v) => !v);
   }, []);
 
   const handleSearchOpenChange = useCallback((open: boolean) => {
@@ -291,11 +335,12 @@ export default function App() {
 
   const tabs = activeDays.map((d) => ({
     value: String(d),
-    label: `${DAY_NAMES[d]} (${(grouped.get(d) ?? []).length})`,
+    label: `${d === todayDayIndex ? "今天" : DAY_NAMES[d]} (${(grouped.get(d) ?? []).length})`,
   }));
 
   const currentDay = Number(activeTab);
   const currentItems = grouped.get(currentDay) ?? [];
+  const currentDayLabel = currentDay === todayDayIndex ? "今天" : DAY_NAMES[currentDay];
 
   return (
     <div style={{ maxWidth: 1280, margin: "0 auto", padding: "16px 16px" }} className="sm:!p-6">
@@ -406,7 +451,7 @@ export default function App() {
           <Switch
             label="只看关注"
             checked={followOnly}
-            onClick={() => setFollowOnly((v) => !v)}
+            onClick={handleFollowOnlyChange}
           />
         </div>
       </div>
@@ -437,7 +482,7 @@ export default function App() {
             )}
           </div>
           <Text variant="secondary" size="sm">
-            {DAY_NAMES[currentDay]} 放送
+            {currentDayLabel} 放送
           </Text>
         </div>
 
@@ -460,7 +505,7 @@ export default function App() {
             <div style={{ marginTop: 16 }}>
               {currentItems.length === 0 ? (
                 <Empty
-                  title={`${DAY_NAMES[currentDay]}暂无放送`}
+                  title={`${currentDayLabel}暂无放送`}
                   description={followOnly ? "该日没有关注的番剧" : "该日没有正在播出的番剧"}
                   size="sm"
                 />
