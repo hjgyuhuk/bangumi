@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-19T02:38:04Z",
-  "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 117,
+  "updatedAt": "2026-04-24T21:02:44Z",
+  "source": "https://unpkg.com/bangumi-data@0.3.207/dist/data.json",
+  "count": 104,
   "items": [
     {
       "title": "海螺小姐",
