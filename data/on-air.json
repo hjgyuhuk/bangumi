@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-25T20:40:48Z",
+  "updatedAt": "2026-08-26T23:25:56Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 117,
+  "count": 116,
   "items": [
     {
       "title": "海螺小姐",
@@ -550,21 +550,6 @@
       ]
     },
     {
-      "title": "心臓に復讐を誓って",
-      "type": "web",
-      "language": "ja",
-      "beginDate": "2026-03-09T16:00:00.000Z",
-      "sites": [
-        {
-          "key": "bangumi",
-          "id": "663242",
-          "title": "番组计划",
-          "url": "https://bgm.tv/subject/663242",
-          "type": "info"
-        }
-      ]
-    },
-    {
       "title": "摩绪",
       "originalTitle": "MAO",
       "zhHansTitles": [
@@ -855,7 +840,7 @@
     },
     {
       "title": "屁屁侦探 第十季",
-      "originalTitle": "おしりたんてい 第10シリーズ",
+      "originalTitle": "おしりたんてい(第10シリーズ)",
       "zhHansTitles": [
         "屁屁侦探 第十季"
       ],
