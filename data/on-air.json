@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-05T22:02:23Z",
+  "updatedAt": "2026-09-06T22:05:40Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 116,
+  "count": 117,
   "items": [
     {
       "title": "海螺小姐",
@@ -2447,6 +2447,26 @@
           "id": "633836",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/633836",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "怪兽8号 鸣海的日常",
+      "originalTitle": "怪獣8号 鳴海の平日",
+      "zhHansTitles": [
+        "怪兽8号 鸣海的日常"
+      ],
+      "type": "web",
+      "language": "ja",
+      "officialSite": "https://kaiju-no8.net/",
+      "beginDate": "2026-09-04T16:00:00.000Z",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "616694",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/616694",
           "type": "info"
         }
       ]
