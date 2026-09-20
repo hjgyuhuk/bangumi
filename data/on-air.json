@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-19T22:18:46Z",
+  "updatedAt": "2026-09-20T22:23:33Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 117,
+  "count": 155,
   "items": [
     {
       "title": "海螺小姐",
@@ -2467,6 +2467,792 @@
           "id": "616694",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/616694",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "转生成为魔剑 第二季",
+      "originalTitle": "転生したら剣でしたⅡ",
+      "zhHansTitles": [
+        "转生成为魔剑 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tenken-anime.com/",
+      "beginDate": "2026-10-07T15:00:00.000Z",
+      "broadcast": "R/2026-10-07T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "412008",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/412008",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "兽王武神丹帝拜恩",
+      "originalTitle": "獣王武神ダンデヴァイン",
+      "zhHansTitles": [
+        "兽王武神丹帝拜恩"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://gattaishin.com/dandivine/",
+      "beginDate": "2026-10-07T15:30:00.000Z",
+      "broadcast": "R/2026-10-07T15:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "657778",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/657778",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "乱世千金倪亚‧利斯顿转生为娇弱千金的弑神武人华丽无双录",
+      "originalTitle": "凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録",
+      "zhHansTitles": [
+        "乱世千金倪亚‧利斯顿转生为娇弱千金的弑神武人华丽无双录"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://kyoranreijo-pr.com/",
+      "beginDate": "2026-10-06T12:25:00.000Z",
+      "broadcast": "R/2026-10-06T12:25:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "624085",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/624085",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "FX战士久留美",
+      "originalTitle": "FX戦士くるみちゃん",
+      "zhHansTitles": [
+        "FX战士久留美"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://fxkurumi-info.com/",
+      "beginDate": "2026-10-01T12:30:00.000Z",
+      "broadcast": "R/2026-10-01T12:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "622288",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/622288",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "借出去的魔力要用【分期还款】强制收回",
+      "originalTitle": "貸した魔力は【リボ払い】で強制徴収",
+      "zhHansTitles": [
+        "借出去的魔力要用【分期还款】强制收回"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://revo-anime.com/",
+      "beginDate": "2026-10-03T16:30:00.000Z",
+      "broadcast": "R/2026-10-03T16:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "606716",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/606716",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "某暗部的少女共栖",
+      "originalTitle": "とある暗部の少女共棲",
+      "zhHansTitles": [
+        "某暗部的少女共栖"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://toaru-project.com/item/",
+      "beginDate": "2026-10-09T13:30:00.000Z",
+      "broadcast": "R/2026-10-09T13:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "537738",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/537738",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "世界最强的魔女，就此开始",
+      "originalTitle": "世界最強の魔女、始めました",
+      "zhHansTitles": [
+        "世界最强的魔女，就此开始"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://sekamajo-anime.com/",
+      "beginDate": "2026-10-07T13:00:00.000Z",
+      "broadcast": "R/2026-10-07T13:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "646154",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/646154",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "魔法少女育成计划 restart",
+      "originalTitle": "魔法少女育成計画restart",
+      "zhHansTitles": [
+        "魔法少女育成计划 restart"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://mahoiku.com/anime/restart",
+      "beginDate": "2026-10-05T17:00:00.000Z",
+      "broadcast": "R/2026-10-05T17:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "418229",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/418229",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "学生会也有洞！",
+      "originalTitle": "生徒会にも穴はある！",
+      "zhHansTitles": [
+        "学生会也有洞！"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://nama-anaru.com/",
+      "beginDate": "2026-10-03T15:30:00.000Z",
+      "broadcast": "R/2026-10-03T15:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "554779",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/554779",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "魔法★探险家",
+      "originalTitle": "マジカル★エクスプローラー",
+      "zhHansTitles": [
+        "魔法★探险家"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://majieku.com/",
+      "beginDate": "2026-10-03T15:00:00.000Z",
+      "broadcast": "R/2026-10-03T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "456078",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/456078",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "转生后的大圣女，极力隐瞒圣女的身分",
+      "originalTitle": "転生した大聖女は、聖女であることをひた隠す",
+      "zhHansTitles": [
+        "转生后的大圣女，极力隐瞒圣女的身分"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://daiseijo-anime.com/",
+      "beginDate": "2026-10-03T13:00:00.000Z",
+      "broadcast": "R/2026-10-03T13:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "542007",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/542007",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "转生成哥布林但有疑问吗？",
+      "originalTitle": "転生ゴブリンだけど質問ある？",
+      "zhHansTitles": [
+        "转生成哥布林但有疑问吗？"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tengobu-anime.com/",
+      "beginDate": "2026-10-05T13:00:00.000Z",
+      "broadcast": "R/2026-10-05T13:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "634587",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/634587",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "被流放的开挂魔术师讴歌随心所欲第二人生",
+      "originalTitle": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。～俺は武器だけじゃなく、あらゆるものに『強化ポイント』を付与できるし、俺の意思でいつでも効果を解除できるけど、残った人たち大丈夫？～",
+      "zhHansTitles": [
+        "被流放的开挂魔术师讴歌随心所欲第二人生"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/",
+      "beginDate": "2026-10-06T15:00:00.000Z",
+      "broadcast": "R/2026-10-06T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "625799",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/625799",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "大叔喜欢可爱小玩意",
+      "originalTitle": "おじさんはカワイイものがお好き。",
+      "zhHansTitles": [
+        "大叔喜欢可爱小玩意"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://ojikawa.com/",
+      "beginDate": "2026-10-04T13:00:00.000Z",
+      "broadcast": "R/2026-10-04T13:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "605533",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/605533",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "魔法骑士雷阿斯",
+      "originalTitle": "魔法騎士レイアース(2026)",
+      "zhHansTitles": [
+        "魔法骑士雷阿斯"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://rayearth-anime.com/",
+      "beginDate": "2026-10-07T14:45:00.000Z",
+      "broadcast": "R/2026-10-07T14:45:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "502123",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/502123",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "バーテックスフォース",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://vertexforce.jp/",
+      "beginDate": "2026-10-03T14:30:00.000Z",
+      "broadcast": "R/2026-10-03T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "636512",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/636512",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "佐佐木与文鸟小哔 第二季",
+      "originalTitle": "佐々木とピーちゃん Season2",
+      "zhHansTitles": [
+        "佐佐木与文鸟小哔 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://sasapi-anime.com/",
+      "beginDate": "2026-10-07T13:00:00.000Z",
+      "broadcast": "R/2026-10-07T13:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "486456",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/486456",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "和没有信徒的女神大人一起攻略异世界",
+      "originalTitle": "信者ゼロの女神サマと始める異世界攻略",
+      "zhHansTitles": [
+        "和没有信徒的女神大人一起攻略异世界"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://zero-believers-anime.com/",
+      "beginDate": "2026-10-11T14:30:00.000Z",
+      "broadcast": "R/2026-10-11T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "621073",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/621073",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "黑色五叶草 第二季",
+      "originalTitle": "ブラッククローバー 2nd Season",
+      "zhHansTitles": [
+        "黑色五叶草 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://bclover.jp/",
+      "beginDate": "2026-10-03T14:00:00.000Z",
+      "broadcast": "R/2026-10-03T14:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "567896",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/567896",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "战车椅子",
+      "originalTitle": "TANK CHAIR-戦車椅子-",
+      "zhHansTitles": [
+        "战车椅子"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.tankchair-anime.com/",
+      "beginDate": "2026-10-04T14:00:00.000Z",
+      "broadcast": "R/2026-10-04T14:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "636023",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/636023",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "僵尸搜寻中",
+      "originalTitle": "#ゾンビさがしてます",
+      "zhHansTitles": [
+        "僵尸搜寻中"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://zommasu.com/",
+      "beginDate": "2026-10-03T14:30:00.000Z",
+      "broadcast": "R/2026-10-03T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "586255",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/586255",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "青之芦苇 第二季",
+      "originalTitle": "アオアシ Season2",
+      "zhHansTitles": [
+        "青之芦苇 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://aoashi-pr.com/",
+      "beginDate": "2026-10-04T08:00:00.000Z",
+      "broadcast": "R/2026-10-04T08:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "555605",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/555605",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "你好、我是受心上人所托来做恋爱药的魔女。",
+      "originalTitle": "どうも、好きな人に惚れ薬を依頼された魔女です。",
+      "zhHansTitles": [
+        "你好、我是受心上人所托来做恋爱药的魔女。"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://horemajo-anime.com/",
+      "beginDate": "2026-10-05T12:30:00.000Z",
+      "broadcast": "R/2026-10-05T12:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "624923",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/624923",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "dreamland",
+      "type": "web",
+      "language": "ja",
+      "officialSite": "https://www.dreamland-anime.com/",
+      "beginDate": "2026-10-17T17:00:00.000Z",
+      "broadcast": "R/2026-10-17T17:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "559080",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/559080",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "来自远方",
+      "originalTitle": "彼方から",
+      "zhHansTitles": [
+        "来自远方"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://kanatakara-anime.com/",
+      "beginDate": "2026-10-04T15:00:00.000Z",
+      "broadcast": "R/2026-10-04T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "636058",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/636058",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "Keroro军曹☆",
+      "originalTitle": "ケロロ軍曹☆",
+      "zhHansTitles": [
+        "Keroro军曹☆"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.bn-pictures.co.jp/keroro-anime/tv/",
+      "beginDate": "2026-10-03T00:30:00.000Z",
+      "broadcast": "R/2026-10-03T00:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "617273",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/617273",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "DARK MACHINE THE ANIMATION",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.fujitv.co.jp/darkmachine_anime/",
+      "beginDate": "2026-10-13T16:45:00.000Z",
+      "broadcast": "R/2026-10-13T16:45:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "505550",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/505550",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "一觉醒来坐拥神装和飞船，我决定以买一套独门独户的房子为目标作为佣兵自由地活下去",
+      "originalTitle": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
+      "zhHansTitles": [
+        "一觉醒来坐拥神装和飞船，我决定以买一套独门独户的房子为目标作为佣兵自由地活下去"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://saikyosoubi.com/",
+      "beginDate": "2026-10-04T12:30:00.000Z",
+      "broadcast": "R/2026-10-04T12:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "536270",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/536270",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "弱气MAX的大小姐、居然接受了铁腕未婚夫的赌约",
+      "originalTitle": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+      "zhHansTitles": [
+        "弱气MAX的大小姐、居然接受了铁腕未婚夫的赌约"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://yowaki-max-anime.com/",
+      "beginDate": "2026-10-04T14:30:00.000Z",
+      "broadcast": "R/2026-10-04T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "596771",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/596771",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "冰剑的魔术师将要统一世界 第二季",
+      "originalTitle": "冰剣の魔術師が世界を統べるⅡ",
+      "zhHansTitles": [
+        "冰剑的魔术师将要统一世界 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://hyouken-anime.com/",
+      "beginDate": "2026-10-08T16:28:00.000Z",
+      "broadcast": "R/2026-10-08T16:28:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "654294",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/654294",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "铁旅！邂逅铁道少女",
+      "originalTitle": "てつりょー！ meet with 鉄道むすめ",
+      "zhHansTitles": [
+        "铁旅！邂逅铁道少女"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tetsuryo-anime.com/",
+      "beginDate": "2026-10-08T15:00:00.000Z",
+      "broadcast": "R/2026-10-08T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "590553",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/590553",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "超巡！超条前辈",
+      "originalTitle": "超巡！超条先輩",
+      "zhHansTitles": [
+        "超巡！超条前辈"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://chojun-anime.com/",
+      "beginDate": "2026-10-06T14:00:00.000Z",
+      "broadcast": "R/2026-10-06T14:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "593565",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/593565",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "萤火虫的出嫁",
+      "originalTitle": "ホタルの嫁入り",
+      "zhHansTitles": [
+        "萤火虫的出嫁"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://hotaru-anime.com/",
+      "beginDate": "2026-10-09T14:30:00.000Z",
+      "broadcast": "R/2026-10-09T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "621108",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/621108",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "归还者的魔法要特别 第二季",
+      "originalTitle": "帰還者の魔法は特別です(第二期)",
+      "zhHansTitles": [
+        "归还者的魔法要特别 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://returners-magic.com/",
+      "beginDate": "2026-10-07T15:45:00.000Z",
+      "broadcast": "R/2026-10-07T15:45:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "471844",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/471844",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "罗梅莉亚战记",
+      "originalTitle": "ロメリア戦記",
+      "zhHansTitles": [
+        "罗梅莉亚战记"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://romelia-senki.com/",
+      "beginDate": "2026-10-05T14:30:00.000Z",
+      "broadcast": "R/2026-10-05T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "511936",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/511936",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "神秘面包小子",
+      "originalTitle": "パンどろぼう",
+      "zhHansTitles": [
+        "神秘面包小子"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://pandorobo-anime.com/",
+      "beginDate": "2026-10-02T09:40:00.000Z",
+      "broadcast": "R/2026-10-02T09:40:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "563508",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/563508",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "冷淡的佐藤同学只对我撒娇",
+      "originalTitle": "塩対応の佐藤さんが俺にだけ甘い",
+      "zhHansTitles": [
+        "冷淡的佐藤同学只对我撒娇"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://shioama-anime.com/",
+      "beginDate": "2026-10-06T13:00:00.000Z",
+      "broadcast": "R/2026-10-06T13:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "634708",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/634708",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "战斗之魂[Re] 绝界之空",
+      "originalTitle": "Battle Spirits [Re] 絶界の空",
+      "zhHansTitles": [
+        "战斗之魂[Re] 绝界之空"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.bn-pictures.co.jp/battlespirits/",
+      "beginDate": "2026-10-06T14:00:00.000Z",
+      "broadcast": "R/2026-10-06T14:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "544378",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/544378",
           "type": "info"
         }
       ]
