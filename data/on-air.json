@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-20T22:23:33Z",
+  "updatedAt": "2026-09-21T23:14:09Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 155,
+  "count": 179,
   "items": [
     {
       "title": "海螺小姐",
@@ -2431,6 +2431,40 @@
       ]
     },
     {
+      "title": "SEALOOK 2nd season",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.tv-tokyo.co.jp/anime/sealook/",
+      "beginDate": "2026-07-23T16:00:00.000Z",
+      "broadcast": "R/2026-07-23T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "679732",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/679732",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "パンの赤ちゃん",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.ktv.jp/pan-aka-tv/",
+      "beginDate": "2026-07-03T16:00:00.000Z",
+      "broadcast": "R/2026-07-03T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "651872",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/651872",
+          "type": "info"
+        }
+      ]
+    },
+    {
       "title": "Re：从零开始的异世界生活 第四季 夺还篇",
       "originalTitle": "Re:ゼロから始める異世界生活 4th season 奪還編",
       "zhHansTitles": [
@@ -2452,21 +2486,40 @@
       ]
     },
     {
-      "title": "怪兽8号 鸣海的日常",
-      "originalTitle": "怪獣8号 鳴海の平日",
+      "title": "怪兽8号 鸣海的平日",
+      "originalTitle": "鳴海の平日",
       "zhHansTitles": [
+        "怪兽8号 鸣海的平日",
         "怪兽8号 鸣海的日常"
       ],
       "type": "web",
       "language": "ja",
       "officialSite": "https://kaiju-no8.net/",
-      "beginDate": "2026-09-04T16:00:00.000Z",
+      "beginDate": "2026-09-05T12:00:00.000Z",
+      "broadcast": "R/2026-09-05T12:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
           "id": "616694",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/616694",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "ごーすと・みーつ・ぎゃる！",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://cf-vanguard.com/anime-ghost_meets_gal/",
+      "beginDate": "2026-09-04T16:00:00.000Z",
+      "broadcast": "R/2026-09-04T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "675448",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/675448",
           "type": "info"
         }
       ]
@@ -2496,7 +2549,8 @@
       "title": "兽王武神丹帝拜恩",
       "originalTitle": "獣王武神ダンデヴァイン",
       "zhHansTitles": [
-        "兽王武神丹帝拜恩"
+        "兽王武神丹帝拜恩",
+        "兽王武神DANDIVINE"
       ],
       "type": "tv",
       "language": "ja",
@@ -2580,7 +2634,8 @@
       "title": "某暗部的少女共栖",
       "originalTitle": "とある暗部の少女共棲",
       "zhHansTitles": [
-        "某暗部的少女共栖"
+        "某暗部的少女共栖",
+        "暗部共生少女"
       ],
       "type": "tv",
       "language": "ja",
@@ -2601,7 +2656,8 @@
       "title": "世界最强的魔女，就此开始",
       "originalTitle": "世界最強の魔女、始めました",
       "zhHansTitles": [
-        "世界最强的魔女，就此开始"
+        "世界最强的魔女，就此开始",
+        "世界最强魔女，始动"
       ],
       "type": "tv",
       "language": "ja",
@@ -2622,7 +2678,8 @@
       "title": "魔法少女育成计划 restart",
       "originalTitle": "魔法少女育成計画restart",
       "zhHansTitles": [
-        "魔法少女育成计划 restart"
+        "魔法少女育成计划 restart",
+        "魔法少女育成计划 第二季"
       ],
       "type": "tv",
       "language": "ja",
@@ -2643,7 +2700,8 @@
       "title": "学生会也有洞！",
       "originalTitle": "生徒会にも穴はある！",
       "zhHansTitles": [
-        "学生会也有洞！"
+        "学生会也有洞！",
+        "脑洞学生会！"
       ],
       "type": "tv",
       "language": "ja",
@@ -2685,7 +2743,8 @@
       "title": "转生后的大圣女，极力隐瞒圣女的身分",
       "originalTitle": "転生した大聖女は、聖女であることをひた隠す",
       "zhHansTitles": [
-        "转生后的大圣女，极力隐瞒圣女的身分"
+        "转生后的大圣女，极力隐瞒圣女的身分",
+        "转生了的大圣女，拼死隐瞒自己身为圣女"
       ],
       "type": "tv",
       "language": "ja",
@@ -2849,7 +2908,8 @@
       "title": "黑色五叶草 第二季",
       "originalTitle": "ブラッククローバー 2nd Season",
       "zhHansTitles": [
-        "黑色五叶草 第二季"
+        "黑色五叶草 第二季",
+        "黑色四叶草 第二季"
       ],
       "type": "tv",
       "language": "ja",
@@ -3051,7 +3111,8 @@
       "title": "弱气MAX的大小姐、居然接受了铁腕未婚夫的赌约",
       "originalTitle": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
       "zhHansTitles": [
-        "弱气MAX的大小姐、居然接受了铁腕未婚夫的赌约"
+        "弱气MAX的大小姐、居然接受了铁腕未婚夫的赌约",
+        "极致软弱千金小姐，不小心答应了精明未婚夫的赌局"
       ],
       "type": "tv",
       "language": "ja",
@@ -3093,7 +3154,9 @@
       "title": "铁旅！邂逅铁道少女",
       "originalTitle": "てつりょー！ meet with 鉄道むすめ",
       "zhHansTitles": [
-        "铁旅！邂逅铁道少女"
+        "铁旅！邂逅铁道少女",
+        "铁旅！meet with 铁路女孩",
+        "铁旅！meet with 铁道娘"
       ],
       "type": "tv",
       "language": "ja",
@@ -3135,7 +3198,8 @@
       "title": "萤火虫的出嫁",
       "originalTitle": "ホタルの嫁入り",
       "zhHansTitles": [
-        "萤火虫的出嫁"
+        "萤火虫的出嫁",
+        "萤火虫之婚"
       ],
       "type": "tv",
       "language": "ja",
@@ -3253,6 +3317,451 @@
           "id": "544378",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/544378",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "新网球王子 U-17 世界杯 决赛成员选拔赛",
+      "originalTitle": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
+      "zhHansTitles": [
+        "新网球王子 U-17 世界杯 决赛成员选拔赛"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tenipuri.jp/u17/selection-match/",
+      "beginDate": "2026-09-30T15:00:00.000Z",
+      "broadcast": "R/2026-09-30T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "586941",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/586941",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "东京复仇者 三天战争篇",
+      "originalTitle": "東京リベンジャーズ 三天戦争編",
+      "zhHansTitles": [
+        "东京复仇者 三天战争篇"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tokyo-revengers-anime.com/",
+      "beginDate": "2026-10-01T16:23:00.000Z",
+      "broadcast": "R/2026-10-01T16:23:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "499474",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/499474",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "魔法的姐妹露露和莉莉 第2部分",
+      "originalTitle": "魔法の姉妹ルルットリリィ(第2クール)",
+      "zhHansTitles": [
+        "魔法的姐妹露露和莉莉 第2部分"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.luluttolilly.com/",
+      "beginDate": "2026-10-04T13:30:00.000Z",
+      "broadcast": "R/2026-10-04T13:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "634210",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/634210",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "青之箱 第二季",
+      "originalTitle": "アオのハコ Season2",
+      "zhHansTitles": [
+        "青之箱 第二季",
+        "蓝箱 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://aonohako-anime.com/",
+      "beginDate": "2026-10-04T07:30:00.000Z",
+      "broadcast": "R/2026-10-04T07:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "548156",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/548156",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "冰之城墙 第二季",
+      "originalTitle": "氷の城壁(第2期)",
+      "zhHansTitles": [
+        "冰之城墙 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://korinojoheki-pr.com/",
+      "beginDate": "2026-10-01T14:56:00.000Z",
+      "broadcast": "R/2026-10-01T14:56:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "665390",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/665390",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "转生贵族凭鉴定技能扭转人生 第三季",
+      "originalTitle": "転生貴族、鑑定スキルで成り上がる(第3期)",
+      "zhHansTitles": [
+        "转生贵族凭鉴定技能扭转人生 第三季",
+        "转生贵族靠着鉴定技能一飞冲天 第三季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://kanteiskill.com/",
+      "beginDate": "2026-09-26T15:00:00.000Z",
+      "broadcast": "R/2026-09-26T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "530104",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/530104",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "侦探已经死了。 第二季",
+      "originalTitle": "探偵はもう、死んでいる。 Season2",
+      "zhHansTitles": [
+        "侦探已经死了。 第二季",
+        "侦探已死 第二季",
+        "侦探已经，死了。 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tanmoshi-anime.jp/Season2/",
+      "beginDate": "2026-10-01T13:30:00.000Z",
+      "broadcast": "R/2026-10-01T13:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "393010",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/393010",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "夜樱家的大作战 第二季 第2部分",
+      "originalTitle": "夜桜さんちの大作戦(第2期)第2クール",
+      "zhHansTitles": [
+        "夜樱家的大作战 第二季 第2部分"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://mission-yozakura-family.com/",
+      "beginDate": "2026-10-11T08:00:00.000Z",
+      "broadcast": "R/2026-10-11T08:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "664389",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/664389",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "乱马1/2 第三季",
+      "originalTitle": "らんま1/2(2026)",
+      "zhHansTitles": [
+        "乱马1/2 第三季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://ranma-pr.com/",
+      "beginDate": "2026-10-03T00:55:00.000Z",
+      "broadcast": "R/2026-10-03T00:55:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "637802",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/637802",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "殺手旅店 第二季",
+      "originalTitle": "ホテル・インヒューマンズ(第2期)",
+      "zhHansTitles": [
+        "殺手旅店 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://hotel-inhumans.com/",
+      "beginDate": "2026-10-04T14:45:00.000Z",
+      "broadcast": "R/2026-10-04T14:45:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "589775",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/589775",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "野生的大魔王出现了！ 第二季",
+      "originalTitle": "野生のラスボスが現れた！(第2期)",
+      "zhHansTitles": [
+        "野生的大魔王出现了！ 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.lastboss-anime.com/",
+      "beginDate": "2026-10-03T13:30:00.000Z",
+      "broadcast": "R/2026-10-03T13:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "616808",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/616808",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "弹珠汽水瓶里的千岁同学 第二季",
+      "originalTitle": "千歳くんはラムネ瓶のなか(第2クール)",
+      "zhHansTitles": [
+        "弹珠汽水瓶里的千岁同学 第二季",
+        "千岁同学在波子汽水瓶内 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://chiramune.com/",
+      "beginDate": "2026-10-12T15:30:00.000Z",
+      "broadcast": "R/2026-10-12T15:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "584847",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/584847",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "药屋少女的呢喃 第三季",
+      "originalTitle": "薬屋のひとりごと(第3期)",
+      "zhHansTitles": [
+        "药屋少女的呢喃 第三季",
+        "药师少女的独语 第三季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://kusuriyanohitorigoto.jp/season3/",
+      "beginDate": "2026-10-02T14:00:00.000Z",
+      "broadcast": "R/2026-10-13T14:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "568244",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/568244",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "装备我最强",
+      "originalTitle": "テムパル～アイテムの力～",
+      "zhHansTitles": [
+        "装备我最强"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tempal-anime.net/",
+      "beginDate": "2026-10-02T14:30:00.000Z",
+      "broadcast": "R/2026-10-02T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "657656",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/657656",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "朱红的假面",
+      "originalTitle": "朱色の仮面",
+      "zhHansTitles": [
+        "朱红的假面",
+        "朱色的面具"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://the-vermilion-mask.com/",
+      "beginDate": "2026-10-10T08:30:00.000Z",
+      "broadcast": "R/2026-10-10T08:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "568525",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/568525",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "黑化吧！圣女大人 第二季",
+      "originalTitle": "傷だらけ聖女より報復をこめて Season2",
+      "zhHansTitles": [
+        "黑化吧！圣女大人 第二季"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://animationid.com/kizudarakeseijo/",
+      "beginDate": "2026-09-30T15:00:00.000Z",
+      "broadcast": "R/2026-09-30T15:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "650428",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/650428",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "不擅交际的未亡人雪女与诅咒戒指",
+      "originalTitle": "人付き合いが苦手な未亡人の雪女さんと呪いの指輪",
+      "zhHansTitles": [
+        "不擅交际的未亡人雪女与诅咒戒指"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://anime-yukionna.af-original.com/",
+      "beginDate": "2026-10-05T16:05:00.000Z",
+      "broadcast": "R/2026-10-05T16:05:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "656083",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/656083",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "マウスカーソルで 現実を操作できるようになったので、女の子をいっぱいクリックしまーす",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://maukuri.af-original.com/",
+      "beginDate": "2026-10-03T16:00:00.000Z",
+      "broadcast": "R/2026-10-03T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "698032",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/698032",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "百妖谱·京师篇",
+      "originalTitle": "百妖譜　第３期京師篇",
+      "zhHansTitles": [
+        "百妖谱·京师篇",
+        "百妖谱 第三季"
+      ],
+      "type": "web",
+      "language": "ja",
+      "officialSite": "https://b8station.tv/hyakuyoufu/",
+      "beginDate": "2026-10-06T16:15:00.000Z",
+      "broadcast": "R/2026-10-06T16:15:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "350795",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/350795",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "女友的朋友",
+      "originalTitle": "彼女の友達",
+      "zhHansTitles": [
+        "女友的朋友"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://kanojo-no-tomodachi.deregula.com/",
+      "beginDate": "2026-10-03T16:05:00.000Z",
+      "broadcast": "R/2026-10-03T16:05:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "647220",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/647220",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "黑暗召唤师在地下恋爱中",
+      "originalTitle": "ダークサモナーとデキている",
+      "zhHansTitles": [
+        "黑暗召唤师在地下恋爱中"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://darksummoner.deregula.com/",
+      "beginDate": "2026-10-03T16:20:00.000Z",
+      "broadcast": "R/2026-10-03T16:20:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "630160",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/630160",
           "type": "info"
         }
       ]
