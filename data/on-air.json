@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-22T22:54:48Z",
+  "updatedAt": "2026-09-23T22:55:03Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 179,
+  "count": 183,
   "items": [
     {
       "title": "海螺小姐",
@@ -517,8 +517,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://www.toei-anim.co.jp/tv/star-detective_precure/",
-      "beginDate": "2026-01-31T16:00:00.000Z",
-      "broadcast": "R/2026-01-31T16:00:00.000Z/P7D",
+      "beginDate": "2026-01-31T23:30:00.000Z",
+      "broadcast": "R/2026-01-31T23:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -953,8 +953,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://yanisuu.com/",
-      "beginDate": "2026-07-09T14:56:00.000Z",
-      "broadcast": "R/2026-07-09T14:56:00.000Z/P7D",
+      "beginDate": "2026-07-09T15:41:00.000Z",
+      "broadcast": "R/2026-07-09T15:41:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -1214,8 +1214,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://www.vap.co.jp/korekaite-shine/",
-      "beginDate": "2026-07-03T14:30:00.000Z",
-      "broadcast": "R/2026-07-03T14:30:00.000Z/P7D",
+      "beginDate": "2026-07-03T14:35:00.000Z",
+      "broadcast": "R/2026-07-03T14:35:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -1236,8 +1236,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://youjo-senki.jp/",
-      "beginDate": "2026-07-08T14:00:00.000Z",
-      "broadcast": "R/2026-07-08T14:00:00.000Z/P7D",
+      "beginDate": "2026-07-08T12:30:00.000Z",
+      "broadcast": "R/2026-07-08T12:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -1282,8 +1282,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://magilumiere-pr.com/",
-      "beginDate": "2026-07-07T17:09:00.000Z",
-      "broadcast": "R/2026-07-07T17:09:00.000Z/P7D",
+      "beginDate": "2026-07-04T16:05:00.000Z",
+      "broadcast": "R/2026-07-04T16:05:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -1303,8 +1303,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://hyakkano.com/",
-      "beginDate": "2026-07-05T14:00:00.000Z",
-      "broadcast": "R/2026-07-05T14:00:00.000Z/P7D",
+      "beginDate": "2026-07-05T13:30:00.000Z",
+      "broadcast": "R/2026-07-05T13:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -1346,8 +1346,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://hellmode-anime.com/",
-      "beginDate": "2026-07-04T18:08:00.000Z",
-      "broadcast": "R/2026-07-04T18:08:00.000Z/P7D",
+      "beginDate": "2026-07-03T16:00:00.000Z",
+      "broadcast": "R/2026-07-03T16:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -1932,8 +1932,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://hanakimi-anime.com/",
-      "beginDate": "2026-07-02T16:59:00.000Z",
-      "broadcast": "R/2026-07-02T16:59:00.000Z/P7D",
+      "beginDate": "2026-07-01T15:30:00.000Z",
+      "broadcast": "R/2026-07-01T15:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2063,8 +2063,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://www.vap.co.jp/sorahaakaikawanohotori/",
-      "beginDate": "2026-07-07T16:35:00.000Z",
-      "broadcast": "R/2026-07-07T16:35:00.000Z/P7D",
+      "beginDate": "2026-07-07T16:39:00.000Z",
+      "broadcast": "R/2026-07-07T16:39:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2128,8 +2128,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://clevatess.com/",
-      "beginDate": "2026-07-08T13:30:00.000Z",
-      "broadcast": "R/2026-07-08T13:30:00.000Z/P7D",
+      "beginDate": "2026-07-08T12:00:00.000Z",
+      "broadcast": "R/2026-07-08T12:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2215,8 +2215,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://anime.bang-dream.com/yumemita/",
-      "beginDate": "2026-07-02T14:00:00.000Z",
-      "broadcast": "R/2026-07-02T14:00:00.000Z/P7D",
+      "beginDate": "2026-07-02T14:30:00.000Z",
+      "broadcast": "R/2026-07-02T14:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2258,8 +2258,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://someyasan-anime.af-original.com/",
-      "beginDate": "2026-07-04T16:00:00.000Z",
-      "broadcast": "R/2026-07-04T16:00:00.000Z/P7D",
+      "beginDate": "2026-07-05T16:00:00.000Z",
+      "broadcast": "R/2026-07-05T16:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2301,8 +2301,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://kamuisan.deregula.com/",
-      "beginDate": "2026-07-02T16:00:00.000Z",
-      "broadcast": "R/2026-07-02T16:00:00.000Z/P7D",
+      "beginDate": "2026-07-03T16:30:00.000Z",
+      "broadcast": "R/2026-07-03T16:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2398,34 +2398,14 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://www.tv-tokyo.co.jp/anime/yamishibai17/",
-      "beginDate": "2026-07-11T18:27:00.000Z",
-      "broadcast": "R/2026-07-11T18:27:00.000Z/P7D",
+      "beginDate": "2026-07-12T18:20:00.000Z",
+      "broadcast": "R/2026-07-12T18:20:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
           "id": "662006",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/662006",
-          "type": "info"
-        }
-      ]
-    },
-    {
-      "title": "人造人009 涅墨西斯",
-      "originalTitle": "サイボーグ009 ネメシス",
-      "zhHansTitles": [
-        "人造人009 涅墨西斯"
-      ],
-      "type": "web",
-      "language": "ja",
-      "officialSite": "https://cyborg009.jp/",
-      "beginDate": "2026-07-18T16:00:00.000Z",
-      "sites": [
-        {
-          "key": "bangumi",
-          "id": "571896",
-          "title": "番组计划",
-          "url": "https://bgm.tv/subject/571896",
           "type": "info"
         }
       ]
@@ -2528,7 +2508,9 @@
       "title": "转生成为魔剑 第二季",
       "originalTitle": "転生したら剣でしたⅡ",
       "zhHansTitles": [
-        "转生成为魔剑 第二季"
+        "转生成为魔剑 第二季",
+        "转生就是剑 第二季",
+        "转生成为魔剑了 第二季"
       ],
       "type": "tv",
       "language": "ja",
@@ -2765,7 +2747,8 @@
       "title": "转生成哥布林但有疑问吗？",
       "originalTitle": "転生ゴブリンだけど質問ある？",
       "zhHansTitles": [
-        "转生成哥布林但有疑问吗？"
+        "转生成哥布林但有疑问吗？",
+        "转生哥布林有问题吗？"
       ],
       "type": "tv",
       "language": "ja",
@@ -2846,7 +2829,11 @@
       ]
     },
     {
-      "title": "バーテックスフォース",
+      "title": "至高之力",
+      "originalTitle": "バーテックスフォース",
+      "zhHansTitles": [
+        "至高之力"
+      ],
       "type": "tv",
       "language": "ja",
       "officialSite": "https://vertexforce.jp/",
@@ -3288,8 +3275,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://shioama-anime.com/",
-      "beginDate": "2026-10-06T13:00:00.000Z",
-      "broadcast": "R/2026-10-06T13:00:00.000Z/P7D",
+      "beginDate": "2026-10-06T11:30:00.000Z",
+      "broadcast": "R/2026-10-06T11:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3330,8 +3317,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://tenipuri.jp/u17/selection-match/",
-      "beginDate": "2026-09-30T15:00:00.000Z",
-      "broadcast": "R/2026-09-30T15:00:00.000Z/P7D",
+      "beginDate": "2026-09-30T16:30:00.000Z",
+      "broadcast": "R/2026-09-30T16:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3351,8 +3338,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://tokyo-revengers-anime.com/",
-      "beginDate": "2026-10-01T16:23:00.000Z",
-      "broadcast": "R/2026-10-01T16:23:00.000Z/P7D",
+      "beginDate": "2026-10-02T16:23:00.000Z",
+      "broadcast": "R/2026-10-02T16:23:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3460,8 +3447,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://tanmoshi-anime.jp/Season2/",
-      "beginDate": "2026-10-01T13:30:00.000Z",
-      "broadcast": "R/2026-10-01T13:30:00.000Z/P7D",
+      "beginDate": "2026-10-06T13:30:00.000Z",
+      "broadcast": "R/2026-10-06T13:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3502,8 +3489,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://ranma-pr.com/",
-      "beginDate": "2026-10-03T00:55:00.000Z",
-      "broadcast": "R/2026-10-03T00:55:00.000Z/P7D",
+      "beginDate": "2026-10-03T15:55:00.000Z",
+      "broadcast": "R/2026-10-03T15:55:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3566,8 +3553,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://chiramune.com/",
-      "beginDate": "2026-10-12T15:30:00.000Z",
-      "broadcast": "R/2026-10-12T15:30:00.000Z/P7D",
+      "beginDate": "2026-10-13T15:30:00.000Z",
+      "broadcast": "R/2026-10-13T15:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3589,7 +3576,7 @@
       "language": "ja",
       "officialSite": "https://kusuriyanohitorigoto.jp/season3/",
       "beginDate": "2026-10-02T14:00:00.000Z",
-      "broadcast": "R/2026-10-13T14:00:00.000Z/P7D",
+      "broadcast": "R/2026-10-02T14:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3651,9 +3638,9 @@
       ],
       "type": "tv",
       "language": "ja",
-      "officialSite": "https://animationid.com/kizudarakeseijo/",
-      "beginDate": "2026-09-30T15:00:00.000Z",
-      "broadcast": "R/2026-09-30T15:00:00.000Z/P7D",
+      "officialSite": "https://animationid.com/kizudarakeseijo2/",
+      "beginDate": "2026-10-02T15:00:00.000Z",
+      "broadcast": "R/2026-10-02T15:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3673,8 +3660,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://anime-yukionna.af-original.com/",
-      "beginDate": "2026-10-05T16:05:00.000Z",
-      "broadcast": "R/2026-10-05T16:05:00.000Z/P7D",
+      "beginDate": "2026-10-07T16:05:00.000Z",
+      "broadcast": "R/2026-10-07T16:05:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3690,8 +3677,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://maukuri.af-original.com/",
-      "beginDate": "2026-10-03T16:00:00.000Z",
-      "broadcast": "R/2026-10-03T16:00:00.000Z/P7D",
+      "beginDate": "2026-10-04T16:00:00.000Z",
+      "broadcast": "R/2026-10-04T16:00:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3704,7 +3691,7 @@
     },
     {
       "title": "百妖谱·京师篇",
-      "originalTitle": "百妖譜　第３期京師篇",
+      "originalTitle": "百妖譜 第3期京師篇",
       "zhHansTitles": [
         "百妖谱·京师篇",
         "百妖谱 第三季"
@@ -3712,8 +3699,8 @@
       "type": "web",
       "language": "ja",
       "officialSite": "https://b8station.tv/hyakuyoufu/",
-      "beginDate": "2026-10-06T16:15:00.000Z",
-      "broadcast": "R/2026-10-06T16:15:00.000Z/P7D",
+      "beginDate": "2026-10-07T16:15:00.000Z",
+      "broadcast": "R/2026-10-07T16:15:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3733,8 +3720,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://kanojo-no-tomodachi.deregula.com/",
-      "beginDate": "2026-10-03T16:05:00.000Z",
-      "broadcast": "R/2026-10-03T16:05:00.000Z/P7D",
+      "beginDate": "2026-10-04T16:05:00.000Z",
+      "broadcast": "R/2026-10-04T16:05:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -3754,14 +3741,119 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "https://darksummoner.deregula.com/",
-      "beginDate": "2026-10-03T16:20:00.000Z",
-      "broadcast": "R/2026-10-03T16:20:00.000Z/P7D",
+      "beginDate": "2026-10-04T16:20:00.000Z",
+      "broadcast": "R/2026-10-04T16:20:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
           "id": "630160",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/630160",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "桃源暗鬼 ～日光・华严之泷篇～",
+      "originalTitle": "桃源暗鬼～日光・華厳の滝編～",
+      "zhHansTitles": [
+        "桃源暗鬼 ～日光・华严之泷篇～"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://tougenanki-anime.com/",
+      "beginDate": "2026-10-02T14:30:00.000Z",
+      "broadcast": "R/2026-10-02T14:30:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "617948",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/617948",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "七叶树王国的七名骑士",
+      "originalTitle": "マロニエ王国の七人の騎士",
+      "zhHansTitles": [
+        "七叶树王国的七名骑士"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.nhk-character.com/chara/marronnier/",
+      "beginDate": "2026-10-03T09:25:00.000Z",
+      "broadcast": "R/2026-10-03T09:25:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "657084",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/657084",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "恐怖收集者",
+      "originalTitle": "恐怖コレクター",
+      "zhHansTitles": [
+        "恐怖收集者"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://www.nhk-character.com/chara/kyoufucollector/",
+      "beginDate": "2026-10-10T14:45:00.000Z",
+      "broadcast": "R/2026-10-10T14:45:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "613256",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/613256",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "幻想水浒传",
+      "originalTitle": "幻想水滸伝",
+      "zhHansTitles": [
+        "幻想水浒传"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://suikoden-anime.com/",
+      "beginDate": "2026-10-03T11:00:00.000Z",
+      "broadcast": "R/2026-10-03T11:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "541538",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/541538",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "PSYREN -决战游戏-",
+      "originalTitle": "PSYREN -サイレン-",
+      "zhHansTitles": [
+        "PSYREN -决战游戏-"
+      ],
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://psyren-anime.com/",
+      "beginDate": "2026-10-05T14:00:00.000Z",
+      "broadcast": "R/2026-10-05T14:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "614640",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/614640",
           "type": "info"
         }
       ]
