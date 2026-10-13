@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T23:37:24Z",
+  "updatedAt": "2026-10-13T01:59:01Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 110,
+  "count": 112,
   "items": [
     {
       "title": "海螺小姐",
@@ -1421,7 +1421,8 @@
       "originalTitle": "ホタルの嫁入り",
       "zhHansTitles": [
         "萤火虫的出嫁",
-        "萤火虫之婚"
+        "萤火虫之婚",
+        "Firefly Wedding"
       ],
       "type": "tv",
       "language": "ja",
@@ -2108,8 +2109,8 @@
       "type": "tv",
       "language": "ja",
       "officialSite": "http://diaace.com/",
-      "beginDate": "2026-10-10T16:00:00.000Z",
-      "broadcast": "R/2026-10-10T16:00:00.000Z/P7D",
+      "beginDate": "2026-10-11T08:30:00.000Z",
+      "broadcast": "R/2026-10-11T08:30:00.000Z/P7D",
       "sites": [
         {
           "key": "bangumi",
@@ -2298,6 +2299,40 @@
           "id": "661278",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/661278",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "ポップパップポルターズ",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://ppp-anime.jp/",
+      "beginDate": "2026-10-03T16:00:00.000Z",
+      "broadcast": "R/2026-10-03T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "635258",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/635258",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "ゆうさんち！from 遊ハち",
+      "type": "tv",
+      "language": "ja",
+      "officialSite": "https://yusanchi-anime.jp/",
+      "beginDate": "2026-10-05T02:00:00.000Z",
+      "broadcast": "R/2026-10-05T02:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "688204",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/688204",
           "type": "info"
         }
       ]
