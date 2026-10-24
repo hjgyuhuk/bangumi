@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-23T23:05:06Z",
+  "updatedAt": "2026-10-24T22:25:41Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 112,
+  "count": 114,
   "items": [
     {
       "title": "海螺小姐",
@@ -2321,7 +2321,11 @@
       ]
     },
     {
-      "title": "ゆうさんち！from 遊ハち",
+      "title": "欢迎光临游之家！from Yu-hachi",
+      "originalTitle": "ゆうさんち！from 遊ハち",
+      "zhHansTitles": [
+        "欢迎光临游之家！from Yu-hachi"
+      ],
       "type": "tv",
       "language": "ja",
       "officialSite": "https://yusanchi-anime.jp/",
@@ -2333,6 +2337,48 @@
           "id": "688204",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/688204",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "无脑魔女",
+      "originalTitle": "無脳魔女 ブレインレス・ウィッチ",
+      "zhHansTitles": [
+        "无脑魔女"
+      ],
+      "type": "web",
+      "language": "ja",
+      "officialSite": "https://www.bs4.jp/brainless-witch/",
+      "beginDate": "2026-10-15T16:00:00.000Z",
+      "broadcast": "R/2026-10-15T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "358769",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/358769",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "决斗大师 LOST ～断罪的少年～",
+      "originalTitle": "Duel Masters LOST ～断罪の少年～",
+      "zhHansTitles": [
+        "决斗大师 LOST ～断罪的少年～"
+      ],
+      "type": "web",
+      "language": "ja",
+      "officialSite": "https://www.shopro.co.jp/anime/duelmasters_lost/",
+      "beginDate": "2026-10-09T12:00:00.000Z",
+      "broadcast": "R/2026-10-09T12:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "632061",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/632061",
           "type": "info"
         }
       ]
