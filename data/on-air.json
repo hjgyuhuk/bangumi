@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-14T00:51:24Z",
+  "updatedAt": "2026-11-14T23:51:13Z",
   "source": "https://unpkg.com/bangumi-data/dist/data.json",
-  "count": 114,
+  "count": 115,
   "items": [
     {
       "title": "海螺小姐",
@@ -1421,8 +1421,7 @@
       "originalTitle": "ホタルの嫁入り",
       "zhHansTitles": [
         "萤火虫的出嫁",
-        "萤火虫之婚",
-        "Firefly Wedding"
+        "萤火虫之婚"
       ],
       "type": "tv",
       "language": "ja",
@@ -2379,6 +2378,27 @@
           "id": "632061",
           "title": "番组计划",
           "url": "https://bgm.tv/subject/632061",
+          "type": "info"
+        }
+      ]
+    },
+    {
+      "title": "恶魔纹章",
+      "originalTitle": "デモンズ・クレスト",
+      "zhHansTitles": [
+        "恶魔纹章"
+      ],
+      "type": "web",
+      "language": "ja",
+      "officialSite": "https://demonscrest-anime.com/",
+      "beginDate": "2026-11-05T16:00:00.000Z",
+      "broadcast": "R/2026-11-05T16:00:00.000Z/P7D",
+      "sites": [
+        {
+          "key": "bangumi",
+          "id": "612608",
+          "title": "番组计划",
+          "url": "https://bgm.tv/subject/612608",
           "type": "info"
         }
       ]
